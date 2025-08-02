@@ -14,8 +14,8 @@ services:
         condition: service_started
     environment:
       - HOST=server.boshoff.tech
-      - PROTOCOL=https
-      - PORT=443
+      - PROTOCOL=http
+      - PORT=3000
       - APP_ENV=production
       - REDIS_HOST=redis
       - POSTGRES_HOST=postgres
