@@ -15,7 +15,7 @@ services:
     environment:
       - HOST=server.boshoff.tech
       - PROTOCOL=https
-      - PORT=3000
+      - PORT=443
       - APP_ENV=production
       - REDIS_HOST=redis
       - POSTGRES_HOST=postgres
